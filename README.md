@@ -20,20 +20,24 @@ It supports use cases such as customer segmentation, fraud detection, regional b
 **Setup**
 
 1.Clone the repository
+
 git clone <your-repo-link>
 cd phonepe-dashboard
 
 2.Install dependencies
+
 pip install -r requirements.txt
 
 3.Configure environment variables in .env
+
 DB_HOST=localhost
 DB_USER=your_username
 DB_PASSWORD=your_password
 DB_NAME=phonepe_db
 
 4.Ensure India GeoJSON file is placed at /data/india_states.geojson
-5.Run the app
+
+5.Run the app  :
 streamlit run app.py
 
 **Example query**
