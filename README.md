@@ -18,6 +18,7 @@ It supports use cases such as customer segmentation, fraud detection, regional b
 	• Visualization: Choropleth maps for state-wise analysis
   
 **Setup**
+
 1.Clone the repository
 git clone <your-repo-link>
 cd phonepe-dashboard
@@ -36,12 +37,14 @@ DB_NAME=phonepe_db
 streamlit run app.py
 
 **Example query**
+
 SELECT State, SUM(transaction_count) AS value
 FROM transaction_agg
 WHERE YEAR BETWEEN 2020 AND 2024
 GROUP BY State;
 
 **Key Insights**
+
 	• Identification of top-performing states
 	• National transaction summaries
 	• Insurance adoption trends
@@ -49,6 +52,7 @@ GROUP BY State;
 	• Regional digital penetration patterns
   
 **Conclusion**
+
 This project demonstrates an end-to-end data pipeline with SQL aggregation, interactive dashboards, and business-centric analytics. It highlights the practical application of data science in fintech and digital payments.
 Skills Demonstrated
 	• Data Modeling
@@ -59,5 +63,6 @@ Skills Demonstrated
 	• Business-Oriented Analytics
 
 **Author**
+
 Geetha Palanisamy
 Data Analyst | Python | SQL | Power BI | Streamlit
