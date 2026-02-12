@@ -1,7 +1,9 @@
 **PhonePe Data Analytics Dashboard**
+
 This project analyzes PhonePe digital payment data (2020–2024) to generate actionable insights on transactions, users, and insurance performance across India. It combines MySQL for storage, Python for processing, and Streamlit + Plotly for interactive visualization.
 
 **Overview**
+
 The dashboard helps businesses and analysts understand:
 	• Payment trends and user growth
 	• Insurance adoption and geographical distribution
@@ -9,6 +11,7 @@ The dashboard helps businesses and analysts understand:
 It supports use cases such as customer segmentation, fraud detection, regional benchmarking, and marketing optimization.
 
 **Architecture**
+
 	• Data Source: PhonePe public GitHub repository (aggregated JSON)
 	• Database: MySQL relational schema with aggregated, map, and top-level tables
 	• Application Layer: Streamlit app with Plotly visualizations
