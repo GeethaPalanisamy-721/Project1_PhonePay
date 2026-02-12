@@ -15,7 +15,7 @@ It supports use cases such as customer segmentation, fraud detection, regional b
 	• Visualization: Choropleth maps for state-wise analysis
   
 **Setup**
-1. Clone the repository
+1.Clone the repository
 git clone <your-repo-link>
 cd phonepe-dashboard
 
